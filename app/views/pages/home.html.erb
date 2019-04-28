@@ -1,6 +1,15 @@
 <h1>Home Page</h1>
 <p>Find me in app/views/pages/home.html.erb</p>
 
+<ul>
 <% @posts.each do |post| %>
-<%= post.title %>
+<li><%= post.title %></li>
+<li><%= post.body %></li>
 <% end %>
+</ul>
+<ul>
+<% @skills.each do |skill| %>
+<li><%= skill.title %></li>
+<li><%= skill.percent_utilized %></li>
+<% end %>
+</ul>
