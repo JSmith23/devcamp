@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/JSmith23/ogun_view_tool
+  revision: 17df5adaabd8c373a35ac6c03d2ae28bcc3233f9
+  specs:
+    ogun_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -229,6 +235,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (>= 3.0.5, < 3.2)
+  ogun_view_tool!
   ostruct (~> 0.1.0)
   pg (>= 0.18, < 2.0)
   pry
