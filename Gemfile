@@ -64,5 +64,6 @@ gem 'ostruct', '~> 0.1.0'
 gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
 gem 'ogun_view_tool', git: 'https://github.com/JSmith23/ogun_view_tool'
+gem 'petergate', '~> 2.0', '>= 2.0.1'
 
 
